@@ -1,0 +1,227 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  background-color:#f4f4f4;
+  font-size:14px;
+  font-family:'corbel';
+  /* The html and body elements cannot have any padding or margin. */
+}
+.sidebar_nav_left{
+	padding:20px 5px 0 5px;
+	position:fixed;
+	z-index:100;
+	width:180px;
+	bottom:0px;
+	top:50px;
+	background-color: #737373;
+	border-right:1px solid #ddd;
+}
+.sidebar_nav_left a{
+	color:white;
+}
+
+.panel-wsa{
+	
+}
+
+.btn-wsa{
+	color:#eda32b;
+	background-color:white;
+	border-color:#eda32b;
+}
+.btn-wsa:hover{
+	color:#eda32b;
+	background-color:white;
+	border-color:#eda32b;
+}
+
+.btn-wsa-green{
+	color:#4cd964;
+	background-color:white;
+	border-color:#4cd964;
+}
+.btn-wsa-green:hover{
+	color:#4cd964;
+	background-color:white;
+	border-color:#4cd964;
+}
+.btn-wsa-red{
+	color:#ff3b30;
+	background-color:white;
+	border-color:#ff3b30;
+}
+.btn-wsa-red:hover{
+	color:#ff3b30;
+	background-color:white;
+	border-color:#ff3b30;
+}
+
+.btn-wsa-grey{
+	color:#737373;
+	background-color:white;
+	border-color:#737373;
+}
+.btn-wsa-grey:hover{
+	color:#737373;
+	background-color:white;
+	border-color:#737373;
+}
+
+.align-right{
+	text-align:right;
+}
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td{
+	padding:4px;
+}
+
+.small-help{
+	font-size:12px;
+	color:#bbb
+}
+
+.panel-wsa .panel-heading{
+	border-bottom:1px solid #f4f4f4;
+	padding:8px 10px 5px;
+	font-size:16px;
+	color:#a1a1a1;
+}
+
+.panel-heading a{
+	color:#a1a1a1;
+}
+
+.table-wsa{
+	border-top-color:#eda32b !important;
+}
+
+.sidebar_nav_left .nav-second-level li a {
+    padding-left: 37px;
+}
+
+.content{
+	margin-left:180px; padding-left:10px;
+	margin-top:70px;
+}
+
+a{
+	color:#122E8A;
+}	
+body a:hover{
+	color:#444;
+}
+.no_pad{
+	padding: 0;
+}
+.right_col{
+	float: right;
+}
+.headertab{
+	background-color:#0B3861;
+	color:white;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -35px;
+  /* Pad bottom by footer height */
+  padding: 0 0 28px;
+}
+#fill {
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -35px;
+  /* Pad bottom by footer height */
+  padding: 0 0 28px;
+}
+#fill_scroll {
+  	min-height: 100%;
+  	margin: 0 auto -35px;
+  	padding: 0 0 28px;
+  	position:relative;
+  	background-color:white;
+  	width: 100%;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 25px;
+  background-color: #000;
+  border-top: 1px solid black;
+  color: #999;
+  padding: 5px;
+  z-index: 1030;
+  position: absolute;
+  width: 100%;
+  font-size:12px;
+  margin-top:10px;
+}
+#footer a{
+	color: #999;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.sold_out{
+	color: #B50D15;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap, #fill, #fill_scroll > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+/* Validate CSS
+-------------------------------------------------- */
+input.error{
+	border-color:#a94442;
+}
+label.error{
+	color:#a94442;
+}
+input.valid{
+	border-color:#3c763d;
+}
+.checkbox label.error{
+	display:block;
+	font-weight:bold;
+}
+
+.circle.text-left{margin-left:0;}
+.circle{
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border-radius: 500px;
+	margin: 0 .5em;
+	background-color: #ddd;
+	vertical-align: baseline;
+	border: 2px solid transparent;
+}
+.circle-lg{
+	width: 14px;
+	height: 14px;
+}
+.circle-notyet{background-color:#bbb;}
+.circle-inprog{background-color:#27c24c;}
+.circle-delay{background-color:#FF0000;}
+.circle-atrisk{background-color:#F6C600;}
+.circle-completed{background-color:#337ab7;}
+
+.text-left{text-align:left;}
